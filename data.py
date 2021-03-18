@@ -1,7 +1,7 @@
 import csv
 from collections import Counter
 
-with open("SOCR-HeightWeight.csv",newline ='') as f:
+with open("C:/WHITEHAT/Datascience/assignmentc104/SOCR-HeightWeight.csv",newline ='') as f:
     reader = csv.reader(f)
     data = list(reader)
 
